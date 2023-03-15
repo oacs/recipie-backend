@@ -7,14 +7,7 @@ import {
 } from "aws-cdk-lib/aws-lambda-nodejs";
 import { join } from "path";
 import { Runtime } from "aws-cdk-lib/aws-lambda";
-import {
-  IResource,
-  Cors,
-  LambdaIntegration,
-  RestApi,
-  MockIntegration,
-  PassthroughBehavior,
-} from "aws-cdk-lib/aws-apigateway";
+import { Cors, LambdaIntegration, RestApi } from "aws-cdk-lib/aws-apigateway";
 
 export class RecipieInfraStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {

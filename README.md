@@ -1,8 +1,14 @@
-# Welcome to your CDK TypeScript project
+# Recipie API
 
 This is a blank project for CDK development with TypeScript.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+## Quick tests
+
+To check that the deploy went all right you could make a curl req to the api:
+
+`curl -X GET https://{{id}}.execute-api.{{region}}.amazonaws.com/prod/recipeResource`
 
 ## Useful commands
 
