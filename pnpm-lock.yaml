@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@aws-sdk/client-dynamodb': ^3.290.0
+  '@aws-sdk/util-dynamodb': ^3.293.0
   '@types/jest': ^29.4.0
   '@types/node': 18.14.6
   aws-cdk: 2.69.0
@@ -20,6 +21,7 @@ specifiers:
 
 dependencies:
   '@aws-sdk/client-dynamodb': 3.290.0
+  '@aws-sdk/util-dynamodb': 3.293.0
   aws-cdk-lib: 2.69.0_constructs@10.1.278
   constructs: 10.1.278
   source-map-support: 0.5.21
@@ -73,7 +75,7 @@ packages:
       '@aws-crypto/sha256-js': 3.0.0
       '@aws-crypto/supports-web-crypto': 3.0.0
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.290.0
+      '@aws-sdk/types': 3.292.0
       '@aws-sdk/util-locate-window': 3.208.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
@@ -650,6 +652,13 @@ packages:
       tslib: 2.5.0
     dev: false
 
+  /@aws-sdk/types/3.292.0:
+    resolution: {integrity: sha512-1teYAY2M73UXZxMAxqZxVS2qwXjQh0OWtt7qyLfha0TtIk/fZ1hRwFgxbDCHUFcdNBSOSbKH/ESor90KROXLCQ==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      tslib: 2.5.0
+    dev: false
+
   /@aws-sdk/url-parser/3.290.0:
     resolution: {integrity: sha512-19EAlyH4LyNMbAROE6KSuhFKhOwl67kciDavPjS8gFiHr6slon3oqXfz10+uzKf/pJKuY6qOpkUb9h7LnF4bFQ==}
     dependencies:
@@ -713,6 +722,13 @@ packages:
       '@aws-sdk/node-config-provider': 3.290.0
       '@aws-sdk/property-provider': 3.290.0
       '@aws-sdk/types': 3.290.0
+      tslib: 2.5.0
+    dev: false
+
+  /@aws-sdk/util-dynamodb/3.293.0:
+    resolution: {integrity: sha512-Y+BnnzxEMOFRwcKhB8PxJqte+SSsXytSi+5U9Bwl9+wGclPBLUg2a4YZktjVbrP9wZcH7zCnvzFf9QvU/WbcgA==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
       tslib: 2.5.0
     dev: false
 
