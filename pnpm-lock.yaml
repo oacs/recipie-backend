@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@aws-sdk/client-dynamodb': ^3.290.0
   '@aws-sdk/util-dynamodb': ^3.293.0
+  '@types/aws-lambda': ^8.10.113
   '@types/jest': ^29.4.0
   '@types/node': 18.14.6
   aws-cdk: 2.69.0
@@ -22,6 +23,7 @@ specifiers:
 dependencies:
   '@aws-sdk/client-dynamodb': 3.290.0
   '@aws-sdk/util-dynamodb': 3.293.0
+  '@types/aws-lambda': 8.10.113
   aws-cdk-lib: 2.69.0_constructs@10.1.278
   constructs: 10.1.278
   source-map-support: 0.5.21
@@ -1746,6 +1748,10 @@ packages:
   /@tsconfig/node16/1.0.3:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
+
+  /@types/aws-lambda/8.10.113:
+    resolution: {integrity: sha512-JHxKRi7Nz2Bjqp0CKllm9Fl5GZwRfMF+lilSfl12ATyvBx0cRM09ztBVgebeJ8wrjJggHxxjSU2/U+SvSG+K1A==}
+    dev: false
 
   /@types/babel__core/7.20.0:
     resolution: {integrity: sha512-+n8dL/9GWblDO0iU6eZAwEIJVr5DWigtle+Q6HLOrh/pdbXOhOtqzq8VPPE2zvNJzSKY4vH/z3iT3tn0A3ypiQ==}
